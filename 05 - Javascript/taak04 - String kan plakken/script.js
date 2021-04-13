@@ -1,7 +1,8 @@
-let mijnVoornaam = 'Meraichio';
-let mijnAchternaam= 'Sijp';
-let mijnLeeftijd=  18;
+let mijnVoornaam = ' Meraichio';
+let mijnAchternaam= 'Sijp ';
+let mijnLeeftijd=  ' 18 ';
 
-alert(mijnVoornaam + mijnAchternaam);
+let volledigeNaam =mijnVoornaam + " " +  mijnAchternaam;
 
-console.log('Mijn naam is <voornaam> <achternaam> en mijn leeftijd is <leeftijd> jaar');
+let volledigeZin = 'Mijn naam is' + volledigeNaam + 'en mijn leeftijd is' + mijnLeeftijd + 'jaar'
+console.log(volledigeZin)
