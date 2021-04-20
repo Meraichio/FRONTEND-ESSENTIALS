@@ -1,0 +1,41 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+
+#bovenkant {
+    background-color:red;
+    width: 266px;
+    height: 500px;
+    top:0;
+    left: 0;
+    display: inline-block;
+  }
+  
+#middenstuk {
+    background-color:white;
+    width: 266px;
+    height: 500px;
+    top:0;
+    left: 0;
+    display: inline-block;
+  }
+  
+#onderkant {
+    background-color:blue;
+    width: 266px;
+    height: 500px;
+    display:block;
+    top: 0px;
+    left: 0;
+    display: inline-block;
+  }
