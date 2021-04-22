@@ -12,48 +12,41 @@
 /* Hieronder kun je gaan editen */
 
 #boven{
-  display: flex;
-  justify-content: space-between;
   background-color: darkblue;
-  border-bottom: 20px solid darkblue ;
   width: 100%;
   height: 50%;
-}   
+  display: flex;
+  justify-content: space-between;
+}
+
 #linksboven{
   background-color: red;
   width: 35%;
   height: 80%;
-  border-bottom: white solid 20px;
-  border-right: white solid 20px ;
 }
+
 #rechtsboven{
   background-color: red;
   width: 55%;
   height: 80%;
-  border-bottom: white solid 20px;
-  border-left: white solid 20px ;
 }
 
 #onder{
+  background-color: white;
+  width: 100%;
+  height: 50%;
   display: flex;
   justify-content: space-between;
-  background-color: darkblue;
-  border-width: 20px solid darkblue ;
-  width: 100%;
-  height: 45.7%;
-  
 }
+
 #linksonder{
-  background-color: red;
-  width: 55%;
-  height: 92%;
-  border-top: solid 20px white;
-  border-left: white solid 20px;
+  background-color:red;
+  width: 35%;
+  height: 100%;
 }
+
 #rechtsonder{
   background-color: red;
-  width: 35%;
-  height: 92%;
-  border-top: solid 20px white;
-  border-right: white solid;
+  width: 55%;
+  height: 100%;
 }
