@@ -1,0 +1,51 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+
+#blauw {
+    background-color:lightblue;
+    width: 800px;
+    height: 200px;
+    display:block;
+  }
+  
+#wit {
+    background-color:white;
+    width: 800px;
+    height: 20px;
+    display:block;
+  }
+  
+#zwart {
+    background-color:black;
+    width: 800px;
+    height: 60px;
+    display:block;
+
+  }
+
+  #wit2 {
+    background-color:white;
+    width: 800px;
+    height: 20px;
+    display:block;
+
+  }
+
+  #blauw2 {
+    background-color:lightblue;
+    width: 800px;
+    height: 200px;
+    display:block;
+
+  }
