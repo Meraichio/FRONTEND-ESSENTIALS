@@ -3,36 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flag website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+
+table, th, td {
+  border: 1px solid black;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+li{
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+
+}
+
+</style>
+
 <body>
-    
-    <div class="container status">
+    <ul>
+        <li><a href="1-Polen">Polen</a></li>
+        <li><a href="2-nederland">Nederland</a></li>
+        <li><a href="3-frankrijk">Frankrijk</a></li>
+        <li><a href="4-colombia">Colombia</a></li>
+        <li><a href ='5-botswana'>Botswana</a></li>
+        <li><a href ='6-benin'>Benin</a></li>
+        <li><a href="7-chile">Chile</a></li>
+        <li><a href="8-denemarken">Denemarken</a></li>
+        <li><a href="9-noorwegen">Noorwegen</a></li>
+      </ul>  
+
+      <div class="container status">
         
     </div>
     <div class="container">
         <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
             <div class="button" id="aaien"><span>Aaien</span></div>
         </div>
         <div class="col">
         </div>
         <div class="response"></div>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
 
+    <script src="script.js"></script>
 
+    <table>
+      <tr>
+        <th>bezoeker</th>
+        <th>informatie</th>
+      </tr>
+      
+      <tr>
+        <td>Voornaam</td>
+        <td></td>
+        </tr>
+        
+      <tr>
+        <td>Achternaam</td>
+        <td></td>
+      <tr>
+      
+      <td>Email</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>Leeftijd</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+      <td>Woonplaats</td>
+      <td></td>
+      
+    </table>
 
-        
-        
-    </script>
 </body>
 </html>
