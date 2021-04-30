@@ -6,4 +6,23 @@ let bezoeker = {
     woonplaats : prompt('Wat is je woonplaats'),
 };
 
-console.log('')
+console.log('bezoeker')
+if (bezoeker.leeftijd==16) {
+    document.body.style.backgroundColor = 'orange'
+}
+
+if (bezoeker.leeftijd==17) {
+    document.body.style.backgroundColor = 'blue'
+}
+
+if (bezoeker.leeftijd==18) {
+    document.body.style.backgroundColor = 'gold'
+}
+
+if (bezoeker.leeftijd==19) {
+    document.body.style.backgroundColor = 'green'
+}
+
+if (bezoeker.leeftijd==0) {
+    document.body.style.backgroundColor = 'purple'
+}
